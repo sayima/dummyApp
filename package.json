@@ -1,0 +1,32 @@
+{
+  "name": "dummyapp",
+  "version": "1.0.0",
+  "description": "\"dummy app to study db,basic things we have to  do before create a app\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "lint": "eslint .",
+    "coverage": "nyc -r html mocha --recursive",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayima/dummyApp.git"
+  },
+  "author": "sayima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayima/dummyApp/issues"
+  },
+  "homepage": "https://github.com/sayima/dummyApp#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "supertest": "^3.0.0"
+  }
+}
